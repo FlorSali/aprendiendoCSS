@@ -1,0 +1,64 @@
+header{
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background:#cccccc url(assets/imagenes/wall-21534_1280.jpg) repeat-y;
+    background-size: contain;
+    border: 4px dotted #0000ff;
+  /*Por defecto el nvegador le da un color negro al borde*/  
+    /* border-style: dotted; */
+    /* En el sigte el / es para darle forma elíptica */
+    border-radius: 20px / 5px ;
+    outline: dashed #ff0000 5px;
+    /* El sigte es la separación entre los bordes */
+    outline-offset: 10px;
+    
+
+}
+
+.Shadow{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #cccccc;
+    border: 1px solid #0000ff;
+    /* Las propiedades estan en el orden: Desplaz. horizon(x), Desplaz. vert(y), Distancia de difuminación, y inset es
+    para ingresar la sombra al elemento, aspecto de profundidad */
+    box-shadow: rgb(150,150,150) 10px 10px 10px inset;
+}
+img{
+    border: 4px solid #ff0000;
+    padding: 10px;
+    margin: 40px;
+    background-color: aqua;
+
+}
+
+
+
+.title{
+    /* el estilo, peso del texto(weight), tamño, familia */
+    font: italic bold 20px verdana, sans-serif;
+    color: aliceblue;
+    text-shadow: #9999ff 3px 3px ;
+
+}
+
+.text{
+    background-color: #9999ff;
+    word-spacing: 10px;
+    width: 500px;
+    height: 30px;
+    overflow: auto;
+}
+/* Para que el enlace acepte los valores del margin, tiene que tener definido un width */
+/* Los valores del margin son medidas como las manecillas del reloj */
+.enlace{
+    display: block;
+    margin: 20px auto 40px;
+    width: 100px;
+    text-decoration: none;
+}
+
+
+
